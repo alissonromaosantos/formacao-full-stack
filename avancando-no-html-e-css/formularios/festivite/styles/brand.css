@@ -1,0 +1,23 @@
+.brand {
+  max-width: 40rem;
+  height: 72.8rem;
+  width: 100%;
+  background-image: url('../assets/images/img-invite.svg');
+  background-size: cover;
+  background-position: center;
+  padding: 3.2rem;
+  border: 1.5rem solid var(--shape-background);
+  border-right:0;
+  border-radius: 1.2rem 0 0 1.2rem;
+
+  h1 {
+    font: var(--title-lg);
+    color: var(--pink);
+  }
+
+  p {
+    font: var(--text-md-regular);
+    color: var(--text-heading);
+    font-weight: 300;
+  }
+}

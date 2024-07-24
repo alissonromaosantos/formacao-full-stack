@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* index.html */
+#app {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-rows: repeat(3, 1fr); */
+  /* grid-template-areas: 
+  "header header header"
+  "main main aside"
+  "footer footer footer"; */
+  grid-template: 
+  "header main main" 80px
+  "header main main" 40px
+  "header aside footer" 50px / 80px 1fr 2fr;
+  gap: 30px;
+  /* row-gap: 30px; */
+  /* column-gap: 30px; */
+  height: 100vh;
+  border: 2px solid green;
+}
+
+#app > * {
+  border: 1px solid red;
+}
+
+#app header {
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-row-start: 1; */
+  /* grid-row-end: 4; */
+  grid-area: header;
+}
+
+#app main {
+ /* grid-column: 2/4; */
+ /* grid-row: 1/3; */
+ grid-area: main;
+}
+
+#app footer {
+  /* grid-column: 2/3; */
+  /* grid-row: 3/4; */
+  grid-area: footer;
+}
+
+/* index-2.html */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+  align-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo y */
+  justify-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo x */
+  place-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo y + eixo x */
+  /*align-items: center;*/ /* start, end, center - eixo y */
+  /*justify-items: center;*/ /* start, end, center - eixo x */
+  /*place-items: center;*/ /* start, end, center - eixo y + eixo x */
+  background-color: black;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid > div {
+  background-color: cornflowerblue;
+}
+
+.grid div:nth-child(2) {
+  align-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo y */
+  justify-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo x */
+  place-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo y + eixo x */
+}
+
+/* index-3.html */
+ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: max-content;
+  list-style: none;
+}

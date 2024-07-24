@@ -1,0 +1,98 @@
+.input-wrapper {
+  margin-top: 2.4rem;
+
+  &:has(:invalid) .error-message {
+    display: flex;
+  }
+}
+
+input, textarea {
+  width: 100%;
+  border-radius: .8rem;
+  background-color: var(--input-base);
+  color: var(--text-heading);
+  padding-inline: 1.6rem;
+  border: none;
+  font: var(--text-md-regular);
+  border: 1px solid var(--input-stroke);
+
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &:invalid {
+    outline: 1px solid var(--danger);
+  }
+
+  &:not(:invalid):focus {
+    outline: 1px solid var(--brand-light);
+  }
+}
+
+input {
+  height: 4.8rem;
+}
+
+textarea {
+  height: 13.6rem;
+  resize: none;
+  padding-block: 1.6rem;
+}
+
+input[type="datetime-local"] {
+  &::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+}
+
+input[type="file"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  height: max-content;
+  color: var(--input-placeholder);
+  font: var(--text-md-regular);
+  position: relative;
+  cursor: pointer;
+
+  &:focus-within, &:hover {
+    outline: none;
+
+    &::-webkit-file-upload-button {
+      border-color: var(--brand-light);
+    }
+  }
+
+  &:invalid {
+    .error-message {
+      display: flex;
+    }
+  }
+
+  &::before {
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 1.4rem;
+    margin-left: 1rem;
+    background-image: url('../../assets/icons/upload.svg');
+    background-repeat: no-repeat;
+  }
+
+  &::-webkit-file-upload-button {
+    background-color: var(--shape-button);
+    color: var(--text-heading);
+    font: var(--text-sm-semibold);
+    border: 1px solid transparent;
+    padding-block: 1.2rem;
+    padding-inline: 3.2rem 1.6rem;
+    border-radius: .8rem;
+    margin-right: 1.2rem;
+  }
+}

@@ -1,0 +1,30 @@
+#mobile-version {
+  margin-top: 8rem;
+}
+
+section {
+  & header {
+    & strong {
+      display: block;
+      font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand-color-primary);
+    }
+
+    & h2 {
+      margin-top: 0.8rem;
+    }
+  }
+
+  & p {
+    margin-top: 0.8rem;
+    color: var(--text-color-secondary);
+  }
+}
+
+@media (width >= 1280px) {
+  #mobile-version {
+    display: none;
+  }
+}

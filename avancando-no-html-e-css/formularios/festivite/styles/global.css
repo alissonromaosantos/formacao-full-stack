@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-body: #29292e;
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+  --danger: #ff5959;
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+  --text-body: #c8ccd0;
+  --text-heading: #f9f9f9;   
+
+  --title-lg: 400 4rem 'Leckerli One', cursive;
+  --title-md: 700 2.8rem 'Baloo 2', sans-serif;
+  --title-sm: 700 1.8rem 'Baloo 2', sans-serif;
+  --text-md-regular: 400 1.6rem 'Open Sans', sans-serif;
+  --text-md-semibold: 600 1.6rem 'Open Sans', sans-serif;
+  --text-sm-regular: 400 1.4rem 'Open Sans', sans-serif;
+  --text-sm-semibold: 600 1.4rem 'Open Sans', sans-serif;
+  --text-xs-regular: 400 1.2rem 'Open Sans', sans-serif;
+  --text-xs-semibold: 600 1.2rem 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-body);
+}
+
+#app {
+  max-width: 128rem;
+  display: flex;
+  margin-inline: auto;
+  padding: 8rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-16 {
+  gap: 1.6rem;
+}
+
+.gap-12 {
+  gap: 1.2rem;
+}
+
+.gap-8 {
+  gap: .8rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.theme-card {
+  max-width: 13.4rem;
+  height: 10.3rem;
+  padding: .4rem;
+  background-color: var(--shape-button);
+  border-radius: .8rem;
+  position: relative;
+  border: 1px solid var(--shape-hover);
+
+  &:hover, &:has(:checked), &:has(:focus-within) {
+    outline: solid var(--brand-light);
+  }
+
+  img {
+    width: 100%;
+    border-radius: .4rem;
+  }
+
+  p {
+    font: var(--text-sm-regular);
+    color: var(--text-heading);
+    text-align: center;
+  }
+
+  & input[type="radio"] {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+  }
+}
+.place-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  display: none;
+  align-items: center;
+  gap: .6rem;
+  margin-top: 0.8rem;
+
+  span {
+    color: var(--danger);
+    font: var(--text-xs-regular);
+  }
+}
+
+.border-top {
+  border-top: 1px solid var(--input-stroke);
+}
+
+fieldset.terms-mt-48 {
+  margin-top: 4.8rem;
+}
+
+div.terms-mt-40 {
+  margin-top: 4rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-8 {
+  margin-bottom: .8rem;
+}
+
+.outline-none {
+  outline: none;
+  
+  &:focus-within {
+    outline: none;
+  }
+}
+
+.border-none {
+  outline: none;
+}

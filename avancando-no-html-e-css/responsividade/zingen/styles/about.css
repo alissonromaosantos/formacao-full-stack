@@ -1,0 +1,7 @@
+#about {
+  background-color: var(--surface-color); 
+
+  & p {
+    font: var(--fw-base) var(--fs-base)/1.6 var(--ff-sans);
+  }
+}

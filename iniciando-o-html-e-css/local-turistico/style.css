@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+  width: 1120px;
+  margin: auto;
+  padding: 88px 0 73px;
+}
+
+.next-trip, .location {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+h3 {
+  color: #e1624f;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h1, h2 {
+font-size: 36px;
+line-height: 49px;
+color: #1B1B1B;
+}
+
+figure {
+  padding: 40px 0;
+}
+
+figure figcaption {
+  margin-top: 24px;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+img {
+  border-radius: 28px;
+}
+
+.locations {
+  margin-top: 64px;
+}
+
+.locations header {
+  margin-bottom: 64px;
+}
+
+.location {
+  padding-bottom: 40px;
+}
+
+.location ol li {
+  font-size: 28px;
+  line-height: 38px;
+  color: #1B1B1B;
+  font-weight: 700;
+  margin-left: 36px;
+  margin-top: 20px;
+} 
+
+ol li p {
+  color: #333;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+ol li p:first-child {
+  color: #333;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+ol li p span {
+  margin-left: 8px;
+  display: block;
+}
+
+li {
+  margin-bottom: 48px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.color-blue {
+  color: #0c51a7;
+}
+
+.color-purple {
+  color: #591b98;
+}
+
+.color-magenta {
+  color: #e5245e;
+}
+
+.color-orange {
+  color: #e95e10;
+}
+
+#app > p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+  margin-bottom: 73px;
+}
+
+footer small {
+  color: #333;
+  font-size: 16px;
+  line-height: 150%;
+  display: block;
+  text-align: center;
+}
+
+footer small img {
+  vertical-align: middle;
+}
