@@ -13,11 +13,11 @@ Formação Full-Stack com conteúdos atualizados das tecnologias mais usadas no 
 - Node
 
 ## 📚 Capítulos e Módulos
-- Fundamentos da Programação Web
+- 🌐 Fundamentos da Programação Web
 
-- Configurando o Ambiente
+- 🔧 Configurando o Ambiente
 
-- Git e GitHub
+- 🔀 Git e GitHub
 
 - Iniciando o HTML e CSS
   - 📄 Fundamentos HTML
