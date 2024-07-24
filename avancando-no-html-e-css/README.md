@@ -70,6 +70,6 @@ Neste módulo vamos criar layouts avançados para páginas web usando flexbox e 
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

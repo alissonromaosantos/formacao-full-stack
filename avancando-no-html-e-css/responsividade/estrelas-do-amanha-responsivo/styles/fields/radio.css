@@ -12,7 +12,7 @@ label + .radio-wrapper {
   border: 1px solid var(--stroke-default);
   border-radius: .5rem;
   display: grid;
-  justify-items: center;
+  justify-items: div;
   gap: .5rem;
   padding: 2rem .5rem .5rem;
   position: relative;

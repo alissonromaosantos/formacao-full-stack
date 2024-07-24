@@ -1,7 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: div;
   line-height: 0;
   padding-block: 24px;
 }
@@ -9,7 +9,7 @@ nav {
 nav ul[role="list"] {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: div;
   padding-block: 8px;
   gap: 28px;
 }

@@ -26,7 +26,7 @@ fieldset + fieldset {
 
   @media (width <= 768px) {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: div;
+    justify-content: div;
   }
 }

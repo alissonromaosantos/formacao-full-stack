@@ -109,7 +109,7 @@ body {
   p {
     font: var(--text-sm-regular);
     color: var(--text-heading);
-    text-align: center;
+    text-align: div;
   }
 
   & input[type="radio"] {
@@ -120,14 +120,14 @@ body {
     inset: 0;
   }
 }
-.place-center {
-  align-items: center;
-  justify-content: center;
+.place-div {
+  align-items: div;
+  justify-content: div;
 }
 
 .error-message {
   display: none;
-  align-items: center;
+  align-items: div;
   gap: .6rem;
   margin-top: 0.8rem;
 

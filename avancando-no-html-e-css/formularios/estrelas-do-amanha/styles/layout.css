@@ -16,7 +16,7 @@ main {
 
   .back {
     display: flex;
-    align-items: center;
+    align-items: div;
     gap: .5rem;
     margin-bottom: 1.5rem;
   }

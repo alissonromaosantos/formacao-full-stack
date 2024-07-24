@@ -30,6 +30,6 @@ Neste módulo vamos conhecer os fundamentos do HTML como tags, estrutura do arqu
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

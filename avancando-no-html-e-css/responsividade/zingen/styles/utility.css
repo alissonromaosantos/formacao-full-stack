@@ -53,8 +53,8 @@
   padding-inline: 3.2rem;
 }
 
-.items-center {
-  align-items: center;
+.items-div {
+  align-items: div;
 }
 
 .grid {

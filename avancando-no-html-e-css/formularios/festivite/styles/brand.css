@@ -4,7 +4,7 @@
   width: 100%;
   background-image: url('../assets/images/img-invite.svg');
   background-size: cover;
-  background-position: center;
+  background-position: div;
   padding: 3.2rem;
   border: 1.5rem solid var(--shape-background);
   border-right:0;

@@ -55,12 +55,12 @@
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   gap: 8px;
-  align-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo y */
-  justify-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo x */
-  place-content: center; /* start, end, center, space-around, space-between, space-evenly - eixo y + eixo x */
-  /*align-items: center;*/ /* start, end, center - eixo y */
-  /*justify-items: center;*/ /* start, end, center - eixo x */
-  /*place-items: center;*/ /* start, end, center - eixo y + eixo x */
+  align-content: div; /* start, end, div, space-around, space-between, space-evenly - eixo y */
+  justify-content: div; /* start, end, div, space-around, space-between, space-evenly - eixo x */
+  place-content: div; /* start, end, div, space-around, space-between, space-evenly - eixo y + eixo x */
+  /*align-items: div;*/ /* start, end, div - eixo y */
+  /*justify-items: div;*/ /* start, end, div - eixo x */
+  /*place-items: div;*/ /* start, end, div - eixo y + eixo x */
   background-color: black;
 
   width: 100vw;
@@ -72,9 +72,9 @@
 }
 
 .grid div:nth-child(2) {
-  align-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo y */
-  justify-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo x */
-  place-self: center; /* start, end, center, space-around, space-between, space-evenly - eixo y + eixo x */
+  align-self: div; /* start, end, div, space-around, space-between, space-evenly - eixo y */
+  justify-self: div; /* start, end, div, space-around, space-between, space-evenly - eixo x */
+  place-self: div; /* start, end, div, space-around, space-between, space-evenly - eixo y + eixo x */
 }
 
 /* index-3.html */

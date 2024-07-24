@@ -35,6 +35,6 @@ Deixe responsivo o projeto Travelgram desenvolvido no módulo: Avançando no HTM
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

@@ -6,7 +6,7 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: div;
 }
 
 #profile {
@@ -41,6 +41,6 @@ header .container {
 
 .info li {
   display: flex;
-  align-items: center;
+  align-items: div;
   gap: 8px;
 }

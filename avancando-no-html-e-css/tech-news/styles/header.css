@@ -4,7 +4,7 @@
   /* nesting css */
   div {
     display: flex;
-    align-items: center;
+    align-items: div;
     gap: 8px;
   }
 

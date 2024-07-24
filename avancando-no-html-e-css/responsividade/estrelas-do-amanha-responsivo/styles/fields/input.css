@@ -42,7 +42,7 @@ input[type="date"] {
     height: 1.25rem;
     position: absolute;
     background-image: url('../../assets/icons/calendar-03.svg');
-    background-position: center;
+    background-position: div;
     background-size: contain;
     right: 1rem;
     top: 50%;
@@ -90,7 +90,7 @@ input {
 
   &[required] + .error {
     display: flex;
-    align-items: center;
+    align-items: div;
     gap: .25rem;
     font: var(--text-sm);
     color: var(--semantic-error);

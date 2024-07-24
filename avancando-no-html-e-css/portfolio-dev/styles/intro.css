@@ -8,11 +8,11 @@
     width: 100%;
     height: 561px;
     background-image: url('../assets/images/background-intro.png');
-    background-position: center;
+    background-position: div;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: div;
     gap: 80px;
 
     header {
@@ -30,7 +30,7 @@
         p {
           font: var(--subtitle);
           color: var(--gray-500);
-          text-align: center;
+          text-align: div;
 
           &:nth-child(3) {
             color: var(--gray-600);
@@ -41,7 +41,7 @@
         h1 {
           font: var(--title-lg);
           color: var(--gray-400);
-          text-align: center;
+          text-align: div;
           margin-block: 12px 20px;
         }
       }
@@ -53,8 +53,8 @@
 
       li a {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: div;
+        justify-content: div;
         gap: 4px;
         color: var(--gray-500);
         font: var(--text-md);

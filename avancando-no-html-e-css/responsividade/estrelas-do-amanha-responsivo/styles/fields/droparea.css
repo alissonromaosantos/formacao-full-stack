@@ -5,11 +5,11 @@
   border-radius: .25rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: div;
+  justify-content: div;
   height: 160px;
   gap: .5rem;
-  text-align: center;
+  text-align: div;
   padding: 1.75px 1rem;
   height: 160px;
   transition: all ease-in-out .2s;

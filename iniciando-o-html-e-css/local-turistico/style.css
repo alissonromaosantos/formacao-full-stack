@@ -37,7 +37,7 @@ figure {
 
 figure figcaption {
   margin-top: 24px;
-  text-align: center;
+  text-align: div;
   color: #333;
   font-size: 16px;
   line-height: 22px;
@@ -114,7 +114,7 @@ li:last-child {
 #app > p {
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
+  text-align: div;
   color: #333333;
   margin-top: 40px;
   margin-bottom: 73px;
@@ -125,7 +125,7 @@ footer small {
   font-size: 16px;
   line-height: 150%;
   display: block;
-  text-align: center;
+  text-align: div;
 }
 
 footer small img {

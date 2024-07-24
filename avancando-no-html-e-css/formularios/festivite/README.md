@@ -31,6 +31,6 @@ Desafio desenvolvido em HTML e CSS durante o módulo: Formulários.
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

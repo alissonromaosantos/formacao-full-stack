@@ -36,6 +36,6 @@ Deixe responsivo o projeto desenvolvido em HTML e CSS durante o módulo: Formul�
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

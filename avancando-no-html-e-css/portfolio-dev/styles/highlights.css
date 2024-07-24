@@ -5,7 +5,7 @@
 
   .projects {
     display: flex;
-    align-items: center;
+    align-items: div;
     flex-wrap: wrap;
     gap: 24px;
 

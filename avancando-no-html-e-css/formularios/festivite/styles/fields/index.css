@@ -7,7 +7,7 @@ fieldset {
 
 legend {
   display: flex;
-  align-items: center;
+  align-items: div;
   gap: 1.2rem;
   color: var(--text-heading);
   font: var(--title-sm);
@@ -23,8 +23,8 @@ label {
 button {
   all: unset;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: div;
+  justify-content: div;
   max-width: 17.7rem;
   height: 4.8rem;
   gap: 1.2rem;

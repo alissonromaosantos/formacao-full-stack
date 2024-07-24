@@ -4,8 +4,8 @@
 
   .main-services {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: div;
+    justify-content: div;
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 56px;

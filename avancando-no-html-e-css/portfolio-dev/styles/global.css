@@ -47,13 +47,13 @@ ul {
 h2 {
   color: var(--gray-400);
   font: 700 24px/120% 'Asap', monospace;
-  text-align: center;
+  text-align: div;
 }
 
 h3 {
   font: var(--subtitle);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: div;
 }
 
 h4 {

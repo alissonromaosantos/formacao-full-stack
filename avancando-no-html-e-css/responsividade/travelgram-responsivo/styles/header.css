@@ -6,7 +6,7 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: div;
 
   @media (width <= 768px) {
     flex-direction: column;
@@ -20,7 +20,7 @@ header .container {
 
   @media (width <= 768px) {
     flex-direction: column;
-    align-items: center;
+    align-items: div;
   }
 }
 
@@ -41,7 +41,7 @@ header .container {
   margin-bottom: 8px;
 
   @media (width <= 768px) {
-    text-align: center;
+    text-align: div;
   }
 }
 
@@ -61,6 +61,6 @@ header .container {
 
 .info li {
   display: flex;
-  align-items: center;
+  align-items: div;
   gap: 8px;
 }

@@ -29,6 +29,6 @@ Projeto desenvolvido em HTML e CSS durante o módulo: Iniciando o HTML e CSS.
 
 ---
 
-<center>
+<div align="center">
   Alisson Romão &copy; 2024
-</center>
+</div>

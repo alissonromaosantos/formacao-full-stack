@@ -3,8 +3,8 @@
   color: transparent;
   border: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: div;
+  justify-content: div;
   width: fit-content;
   border-radius: .8rem;
   font: var(--fw-md) var(--fs-base)/2.4rem var(--ff-sans);

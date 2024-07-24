@@ -1,12 +1,12 @@
 .contacts {
   min-height: 787px;
   background-image: url('../assets/images/background-contacts.png');
-  background-position: center;
+  background-position: div;
   background-size: cover;
   padding-block: 128px 500px;
 
   p {
-    text-align: center;
+    text-align: div;
     font-size: 16px;
   }
 
@@ -20,12 +20,12 @@
     margin-top: 48px;
     flex-direction: column;
     gap: 16px;
-    align-items: center;
-    justify-content: center;
+    align-items: div;
+    justify-content: div;
 
     .social-media {
       display: flex;
-      align-items: center;
+      align-items: div;
       gap: 12px;
 
       &:hover {
