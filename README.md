@@ -1,4 +1,4 @@
-<div align="div">
+<div align="center">
   <img src="https://app.rocketseat.com.br/_next/image?url=https%3A%2F%2Fxesque.rocketseat.dev%2Fplatform%2F1709658495701.svg&w=128&q=75" alt="Logo da Formação Full-Stack" />
   <h1>Formação Full-Stack</h1>
 </div>

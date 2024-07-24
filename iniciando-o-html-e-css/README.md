@@ -13,11 +13,11 @@ Neste módulo vamos conhecer os fundamentos do HTML como tags, estrutura do arqu
 
 ## Projeto Feito em Aula
 ### Página de Receita
-![hero](./pagina-de-receita/screenshot/pagina-de-receita-desktop.png)
+![pagina-de-receita-desktop-image](./pagina-de-receita/screenshot/pagina-de-receita-desktop.png)
 
 ## Desafio do Módulo
 ### Local Turístico
-![hero](./local-turistico/screenshot/local-turistico-desktop.png)
+![pagina-de-receita-mobile-image](./local-turistico/screenshot/local-turistico-desktop.png)
 
 ## Escola
 - [**Rocketseat**](https://github.com/rocketseat)
