@@ -33,6 +33,47 @@
     display: block;
     animation: slideUp 6s infinite ease;
   }
+
+  & .buttons {
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 4.8rem;
+    text-transform: uppercase;
+
+    & .button {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      border-radius: 8rem;
+      transition: all .2s ease-in-out;
+
+      &.buy {
+        padding: 2.4rem 4.8rem;
+        background-color: var(--snitap-sun);
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      &.play {
+        &.play span {
+          padding: 2.4rem;
+          border-radius: 50%;
+          background-color: white;
+          display: flex;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    & .shadow {
+      box-shadow: 0px 36px 15px rgba(0, 0, 0, 0.01), 0px 20px 12px rgba(0, 0, 0, 0.05), 0px 9px 9px rgba(0, 0, 0, 0.09), 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
 }
 
 @keyframes slideUp {
