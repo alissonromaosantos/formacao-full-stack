@@ -8,7 +8,7 @@ Projeto desenvolvido em HTML e CSS durante o módulo: Animações e Transições
 ![snitap-mobile-image](https://i.imgur.com/Zd9c7Tg.jpeg)
 
 ## Animação
-![snitap-animated-desktop](https://i.imgur.com/NrJAAzK.gif)
+![snitap-animated-desktop](https://i.imgur.com/JJmJw9T.gif)
 
 ## Tecnologias
 - HTML
