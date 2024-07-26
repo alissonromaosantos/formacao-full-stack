@@ -26,6 +26,10 @@
   --text-xl: 6.4rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, a {
   font: 500 1.6rem/1.5 var(--ff-base);
 }
