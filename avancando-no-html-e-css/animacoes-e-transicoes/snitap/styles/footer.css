@@ -1,0 +1,90 @@
+footer {
+  max-width: 128rem;
+  width: 100%;
+  margin-inline: auto;
+  padding: 6.4rem 3.2rem 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .logo {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font: 700 2rem/1.3 'Syne', sans-serif;
+
+    & img {
+      transition: transform 350ms ease-in-out;
+
+      &:hover {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  & nav {
+    display: flex;
+    gap: 3.2rem;
+
+    & a {
+      position: relative;
+      width: fit-content;
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: var(--snitap-sky-mid);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        opacity: 0;
+        transition: transform 200ms linear;
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+        opacity: 1;
+      }
+    }
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    
+    & a {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      &::before {
+        content: '';
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background-color: var(--snitap-sun);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: scale(0);
+        transition: transform 200ms;
+      }
+
+      & > img {
+        width: 2.4rem;
+        height: auto;
+      }
+
+      &:hover::before {
+        transform: scale(1);
+      }
+    }
+  }
+}
