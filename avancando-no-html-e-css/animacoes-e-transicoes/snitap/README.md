@@ -3,12 +3,12 @@ Projeto desenvolvido em HTML e CSS durante o módulo: Animações e Transições
 
 ## Layouts
 ### Desktop
-![snitap-desktop-image](https://i.imgur.com/BVIw22o.jpeg)
+![snitap-desktop-image](./screenshots/snitap-desktop.png)
 ### Mobile
-![snitap-mobile-image](https://i.imgur.com/Zd9c7Tg.jpeg)
+![snitap-mobile-image](./screenshots/snitap-mobile.png)
 
 ## Animação
-<img src="https://i.imgur.com/JJmJw9T.gif" alt="Gif Animado do Snitap" />
+![snitap-animated-desktop](./screenshots/snitap-animated.gif)
 
 ## Tecnologias
 - HTML
