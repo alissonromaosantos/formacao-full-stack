@@ -9,6 +9,11 @@
 
     & span {
       font: 500 var(--text-sm)/1.5 var(--ff-base);
+      text-transform: uppercase;
+
+      @media (width <= 750px) {
+        --text-sm: 1.2rem;
+      }
     }
   }
 
@@ -43,6 +48,10 @@
         height: 40rem;
         object-fit: cover;
         transition: transform 500ms;
+
+        @media (width <= 768px) {
+          height: auto;
+        }
       }
 
       &:hover {
@@ -95,6 +104,22 @@
         }
       }
     }
+
+    @media (width <= 768px) {
+      grid-template-areas: 
+      'A'
+      'B'
+      'C'
+      'D';
+    }
+
+    @media (width <= 750px) {
+      gap: 2.4rem;
+    }
+  }
+
+  @media (width <= 750px) {
+    --text-lg: 2.4rem;
   }
 }
 

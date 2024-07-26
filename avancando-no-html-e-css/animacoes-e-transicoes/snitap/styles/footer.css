@@ -48,6 +48,10 @@ footer {
         opacity: 1;
       }
     }
+
+    @media (width <= 768px) {
+      flex-direction: column;
+    }
   }
 
   .social-links {
@@ -86,5 +90,11 @@ footer {
         transform: scale(1);
       }
     }
+  }
+
+  @media (width <= 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.8rem;
   }
 }

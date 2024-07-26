@@ -35,12 +35,16 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 6.4rem;
+  font-size: var(--text-xl);
   line-height: 1.25;
+
+  @media (width <= 750px) {
+    --text-xl: 3.2rem;
+  }
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: var(--text-lg);
   line-height: 1.2;
 }
 
