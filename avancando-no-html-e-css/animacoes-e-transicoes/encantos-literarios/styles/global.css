@@ -44,7 +44,27 @@ html, button, body {
   font: 400 var(--text-md)/1.4 var(--ff-base);
 }
 
+body {
+  background-color: var(--shape-base);
+  backdrop-filter: blur(750rem);
+  color: var(--text-body);
+}
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  max-width: 112rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+h1 {
+  font: 700 var(--title-lg) var(--ff-base);
+}
+
+h2 {
+  font: 700 var(--title-sm) var(--ff-base);
 }
