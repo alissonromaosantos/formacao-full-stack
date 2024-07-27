@@ -1,0 +1,102 @@
+#phrase-highlight {
+  padding: 9.6rem 0 15.8rem;
+
+  & .container {
+    &:hover {
+      & .part-1,
+      & .part-2,
+      & .part-3 {
+        opacity: 1;
+
+        & strong {
+          color: var(--blue-light);
+        }
+      }
+
+      & img[src*="spellbook"],
+      & img[src*="ouija"],
+      & img[src*="crystal"] {
+        opacity: 1;
+      }
+    }
+  }
+
+  & p {
+    font: 400 var(--subtitle)/200% var(--ff-base);
+    text-align: center;
+
+    & .part-1 {
+      opacity: 0.5;
+      transition: all 800ms 100ms;
+
+      & strong {
+        transition: all 800ms 100ms;
+      }
+    }
+
+    & .part-2 {
+      opacity: 0.5;
+      transition: all 800ms 500ms;
+
+      & strong {
+        transition: all 800ms 500ms;
+      }
+    }
+
+    & .part-3 {
+      opacity: 0.5;
+      transition: all 800ms 1s;
+
+      & strong {
+        transition: all 800ms 1s;
+      }
+    }
+  }
+
+  .phrase-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & img {
+    width: 6.5rem;
+    height: 6.5rem;
+    object-fit: cover;
+  }
+
+  & .container > img:nth-child(1) {
+    display: block;
+    margin-inline: auto;
+    transform: rotate(20.76deg);
+    opacity: 0;
+    transition: all 800ms ease-in-out 100ms;
+
+    &:hover {
+      transform: rotate(30.76deg);
+      scale: 1.1;
+    }
+  }
+
+  & img[src*="ouija"] {
+    transform: rotate(99.47deg);
+    opacity: 0;
+    transition: all 800ms ease-in-out 500ms;
+
+    &:hover {
+      transform: rotate(109.47deg);
+      scale: 1.1;
+    }
+  }
+
+  & img[src*="crystal"] {
+    transform: rotate(-14.48deg);
+    opacity: 0;
+    transition: all 800ms ease-in-out 1s;
+
+    &:hover {
+      transform: rotate(0deg);
+      scale: 1.1;
+    }
+  }
+}
