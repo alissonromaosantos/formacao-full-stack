@@ -13,6 +13,13 @@
     align-items: center;
     justify-content: space-between;
 
+    & a.logo {
+      width: 23rem;
+      height: 5.8rem;
+      background-image: url('../assets/images/logo-horizontal.svg');
+      background-size: cover;
+    }
+
     & button {
       all: unset;
       max-width: 8.9rem;

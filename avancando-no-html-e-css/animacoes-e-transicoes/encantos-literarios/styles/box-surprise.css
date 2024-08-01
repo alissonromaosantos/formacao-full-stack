@@ -1,5 +1,5 @@
 #box-surprise {
-  padding: 5rem 0 15.8rem;                            ;
+  padding: 8.8rem 0 0;                            ;
 
   & .title {
     display: flex;
@@ -23,11 +23,11 @@
   }
 
   & .book {
-    padding-top: 25.6rem;
+    padding-top: 22.8rem;
     margin-inline: auto;
     display: flex;
     position: relative;
-    height: 100%;
+    height: 109.5rem;
 
     & .left-side {
       display: flex;

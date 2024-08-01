@@ -17,6 +17,13 @@
     margin-top: 14rem;
     position: relative;
 
+    &:has(:hover) {
+      .pricing-semiannual {
+        background-color: var(--shape-base);
+        border: 1px solid var(--shape-stroke);
+      }
+    }
+
     .pricing-monthly,
     .pricing-semiannual,
     .pricing-annual {
@@ -97,7 +104,7 @@
           & img {
             margin-left: -1rem;
             width: 3.2rem;
-            height: 3.2rem;
+            max-height: 3.2rem;
           }
         }
       }
@@ -142,6 +149,7 @@
 
         &:hover {
           z-index: 999;
+          transform: translateY(-.8rem) rotate(-10deg);
         }
       }
   
@@ -153,6 +161,7 @@
 
         &:hover {
           z-index: 999;
+          transform: translateY(-.8rem) rotate(10deg);
         }
       }
     }

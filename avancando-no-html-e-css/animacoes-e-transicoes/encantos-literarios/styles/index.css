@@ -1,5 +1,7 @@
 @import url('./global.css');
+@import url('./utility.css');
 @import url('./intro.css');
 @import url('./phrase-highlight.css');
 @import url('./box-surprise.css');
 @import url('./pricing.css');
+@import url('./footer.css');
