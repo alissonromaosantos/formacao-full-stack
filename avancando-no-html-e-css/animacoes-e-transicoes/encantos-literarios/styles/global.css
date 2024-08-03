@@ -67,6 +67,10 @@ ul {
 
 h1 {
   font: 700 var(--title-lg) var(--ff-base);
+
+  @media (width < 768px) {
+    --title-lg: 2.8rem;
+  }
 }
 
 h2 {

@@ -84,6 +84,22 @@ footer {
           color: var(--text-body);
         }
       }
+
+      @media (width < 768px) {
+        gap: 2.4rem;
+      }
     }
+
+    @media (width < 768px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4rem;
+    }
+  }
+
+
+  @media (width <= 1130px) {
+    padding-inline: 2rem;
   }
 }

@@ -121,6 +121,7 @@
       border: 1px solid transparent;
       position: absolute;
       left: 41.8rem;
+      opacity: 0;
       transform: rotate(0deg);
       top: 0;
     }
@@ -136,6 +137,7 @@
       border: 1px solid transparent;
       position: absolute;
       right: 41.8rem;
+      opacity: 0;
       transform: rotate(0deg);
       top: 0;
     }
@@ -146,6 +148,7 @@
         transform: rotate(-10deg);
         border-color: var(--shape-stroke);
         top: 7rem;
+        opacity: 1;
 
         &:hover {
           z-index: 999;
@@ -158,6 +161,7 @@
         transform: rotate(10deg);
         border-color: var(--shape-stroke);
         top: 7rem;
+        opacity: 1;
 
         &:hover {
           z-index: 999;
