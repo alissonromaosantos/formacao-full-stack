@@ -20,6 +20,7 @@ Neste módulo vamos criar layouts avançados para páginas web usando flexbox e 
 - Mobile First
 - CSS Functions
 - Animações
+- Transições
 
 ## Projetos Feitos em Aula
 ### Travelgram
@@ -28,11 +29,21 @@ Neste módulo vamos criar layouts avançados para páginas web usando flexbox e 
 ![tech-news-desktop-image](./tech-news/screenshot/tech-news-desktop.png)
 ### Estrelas do Amanhã
 ![estrelas-do-amanha-desktop-image](./formularios/estrelas-do-amanha/screenshot/estrelas-do-amanha-desktop.png)
+
 ### Zingen
 #### Desktop
 ![zingen-desktop-image](./responsividade/zingen/screenshots/zingen-desktop.png)
 #### Mobile
 ![zingen-mobile-image](./responsividade/zingen/screenshots/zingen-mobile.png)
+
+### Snitap
+#### Desktop
+![snitap-desktop-image](./animacoes-e-transicoes/snitap/screenshots/snitap-desktop.png)
+#### Mobile
+![snitap-mobile-image](./animacoes-e-transicoes/snitap/screenshots/snitap-mobile.png)
+#### Animação
+![snitap-animated-desktop](./animacoes-e-transicoes/snitap/screenshots/snitap-animated.gif)
+
 
 ## Desafios do Módulo
 ### Portfolio Dev
@@ -58,6 +69,18 @@ Neste módulo vamos criar layouts avançados para páginas web usando flexbox e 
 ![tech-news-responsivo-desktop-image](./responsividade/tech-news-responsivo/screenshots/tech-news-desktop.png)
 #### Mobile
 ![tech-news-responsivo-mobile-image](./responsividade/tech-news-responsivo/screenshots/tech-news-mobile.png)
+
+### Encantos Literários
+#### Desktop
+![encantos-literarios-desktop-image](./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-desktop.png)
+#### Tablet
+![encantos-literarios-tablet-image](./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-tablet.png)
+#### Mobile
+![encantos-literarios-mobile-image](./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-mobile.png)
+#### Animação
+<video width="100%" autoplay muted loop>
+  <source src="./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-animation.mp4" type="video/mp4" />
+</video>
 
 ## Escola
 - [**Rocketseat**](https://github.com/rocketseat)
