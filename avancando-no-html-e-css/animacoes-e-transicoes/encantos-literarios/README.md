@@ -8,11 +8,8 @@ Desafio desenvolvido em HTML e CSS durante o módulo: Animações e Transições
 ![encantos-literarios-tablet-image](./screenshots/encantos-literarios-tablet.png)
 ### Mobile
 ![encantos-literarios-mobile-image](./screenshots/encantos-literarios-mobile.png)
-
-## Animação
-<video width="100%" height="auto" autoplay muted loop>
-  <source src="./screenshots/encantos-literarios-animation.mp4" type="video/mp4" />
-</video>
+### Animação
+![encantos-literarios-desktop-animation](./screenshots/encantos-literarios-animation.gif)
 
 ## Tecnologias
 - HTML

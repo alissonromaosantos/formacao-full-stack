@@ -78,9 +78,7 @@ Neste módulo vamos criar layouts avançados para páginas web usando flexbox e 
 #### Mobile
 ![encantos-literarios-mobile-image](./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-mobile.png)
 #### Animação
-<video width="100%" autoplay muted loop>
-  <source src="./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-animation.mp4" type="video/mp4" />
-</video>
+![encantos-literarios-desktop-animation](./animacoes-e-transicoes/encantos-literarios/screenshots/encantos-literarios-animation.gif)
 
 ## Escola
 - [**Rocketseat**](https://github.com/rocketseat)

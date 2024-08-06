@@ -17,11 +17,8 @@ Projetos desenvolvidos em HTML e CSS durante o módulo: Animações e Transiçõ
 ![encantos-literarios-tablet-image](./encantos-literarios/screenshots/encantos-literarios-tablet.png)
 #### Mobile
 ![encantos-literarios-mobile-image](./encantos-literarios/screenshots/encantos-literarios-mobile.png)
-
 ### Animação
-<video width="100%" height="auto" autoplay muted loop>
-  <source src="./encantos-literarios/screenshots/encantos-literarios-animation.mp4" type="video/mp4" />
-</video>
+![encantos-literarios-desktop-animation](./encantos-literarios/screenshots/encantos-literarios-animation.gif)
 
 ## Tecnologias
 - HTML
