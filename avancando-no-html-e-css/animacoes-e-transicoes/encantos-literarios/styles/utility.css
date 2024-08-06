@@ -67,6 +67,12 @@
   }
 }
 
+.desktop-only {
+  @media (width < 1024px) {
+    display: none;
+  }
+}
+
 .mt-70 {
   margin-top: 7rem;
 }

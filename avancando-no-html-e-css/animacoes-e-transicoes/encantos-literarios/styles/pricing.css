@@ -5,6 +5,10 @@
   background-size: cover;
   background-position: center;
 
+  @media(width < 1024px) {
+    padding-block: 0 10.4rem;
+  }
+
   & h2 {
     text-align: center;
     font: 700 var(--title-sm) var(--ff-base);
@@ -16,6 +20,16 @@
     justify-content: center;
     margin-top: 14rem;
     position: relative;
+
+    @media (width < 1024px) {
+      flex-direction: column;
+      gap: 2.4rem;
+      margin-top: 4.8rem;
+    }
+
+    @media (1024px <= width <= 1120px) {
+      max-width: 100rem;
+    }
 
     &:has(:hover) {
       .pricing-semiannual {
@@ -113,6 +127,10 @@
         background-color: var(--shape-hover);
         transform: translateY(-.8rem);
         box-shadow: 1px 3px 30px 5px var(--shape-hover);
+
+        @media(width < 1024px) {
+          transform: translateY(0);
+        }
       }
     }
 
@@ -124,6 +142,13 @@
       opacity: 0;
       transform: rotate(0deg);
       top: 0;
+
+      @media (width < 1024px) {
+        position: static;
+        transform: rotate(0deg);
+        opacity: 1;
+        border-color: var(--shape-stroke)
+      }
     }
 
     & .pricing-semiannual {
@@ -140,6 +165,13 @@
       opacity: 0;
       transform: rotate(0deg);
       top: 0;
+
+      @media (width < 1024px) {
+        position: static;
+        transform: rotate(0deg);
+        opacity: 1;
+        border-color: var(--shape-stroke)
+      }
     }
 
     &:hover {
@@ -150,9 +182,23 @@
         top: 7rem;
         opacity: 1;
 
+        @media (width < 1024px) {
+          position: static;
+          transform: rotate(0deg);
+        }
+
+        @media (1024px <= width <= 1120px) {
+          left: 9rem;
+        }
+
         &:hover {
           z-index: 999;
           transform: translateY(-.8rem) rotate(-10deg);
+
+          @media (width < 1024px) {
+            position: static;
+            transform: translateY(0) rotate(0deg);
+          }
         }
       }
   
@@ -163,9 +209,22 @@
         top: 7rem;
         opacity: 1;
 
+        @media (width < 1024px) {
+          position: static;
+          transform: rotate(0deg);
+        }
+
+        @media (1024px <= width <= 1120px) {
+          right: 9rem;
+        }
+
         &:hover {
           z-index: 999;
           transform: translateY(-.8rem) rotate(10deg);
+
+          @media (width < 1024px) {
+            transform: translateY(0) rotate(0deg);
+          }
         }
       }
     }

@@ -1,5 +1,9 @@
 #box-surprise {
-  padding: 8.8rem 0 0;                            ;
+  padding-block: 8.8rem;
+
+  @media (width < 1024px) {
+    padding-block: 0;
+  }
 
   & .title {
     display: flex;
@@ -20,75 +24,171 @@
 
   & p {
     text-align: center;
+
+    @media (width < 768px) {
+      font: 400 var(--text-sm)/1.6 var(--ff-base);
+    }
   }
 
   & .book {
-    padding-top: 22.8rem;
+    margin-block: 18.8rem;
     margin-inline: auto;
-    display: flex;
+    max-height: 109.5rem;
     position: relative;
-    height: 109.5rem;
 
-    & .left-side {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
+    @media (width < 768px) {
+      max-width: 17rem;
+      margin-block: 9.5rem;
+    }
+
+    @media (768px <= width <= 1250px) {
+      max-width: 48.7rem;
     }
 
     & img[src*="hard-cover"] {
-      position: relative;
-      left: 35rem;
-      top: 2rem;
+      position: absolute;
+      top: 22rem;
+      left: 45rem;
+      z-index: -1;
       transition: all 0.5s ease-in-out;
+
+      @media (width < 768px) {
+        max-width: 9rem;
+        height: 3.3rem;
+        left: 3rem;
+        top: 1rem;
+      }
+
+      @media (768px <= width <= 1250px) {
+        max-width: 25rem;
+        height: 25rem;
+        left: 12rem;
+        top: 0;
+      }
     }
 
     & img[src*="pin"] {
-      position: relative;
-      left: 35rem;
-      bottom: 22rem;
+      position: absolute;
+      left: 45rem;
+      bottom: 20rem;
+      z-index: -1;
       transition: all 0.5s ease-in-out;
+
+      @media (width < 768px) {
+        max-width: 7.4rem;
+        height: 8.5rem;
+        left: 3rem;
+        bottom: 0;
+      }
+
+      @media (768px <= width <= 1250px) {
+        max-width: 25rem;
+        height: 25rem;
+        left: 12rem;
+        bottom: 5rem;
+      }
     }
 
     & img[src*="book"] {
       max-width: 46.7rem;
       width: 100%;
-      height: 61.7rem;
+      height: auto;
+      display: block;
+      margin-inline: auto;
       position: relative;
+
+      @media (width < 768px) {
+        max-width: 15rem;
+      }
+
+      @media (768px <= width <= 1250px) {
+        max-width: 35rem;
+      }
     }
 
     & img[src*="tematic"] {
       max-width: 44.4rem;
       width: 100%;
       height: 55.9rem;
-      z-index: -1;
-      position: relative;
-      right: 40rem;
+      position: absolute;
       top: 2rem;
-      transition: all 0.5s ease-in-out;
+      right: 32rem;
+      z-index: -1;
+      transition: all 0.5s ease-in;
+
+      @media (width < 768px) {
+        max-width: 13rem;
+        height: 15rem;
+        right: 1rem;
+        top: 2rem;
+      }
+
+      @media (768px <= width <= 1250px) {
+        max-width: 15rem;
+        height: auto;
+        right: 8rem;
+        top: 2rem;
+      }
     }
 
     &:hover {
       & img[src*="hard-cover"] {
         opacity: 1;
-        left: 6rem;
-        top: -6rem;
         scale: 1.1;
+        left: 11rem;
+        top: -6rem;
+
+        @media (width < 768px) {
+          left: -5rem;
+          top: -3rem;
+        }
+
+        @media (768px <= width <= 1250px) {
+          max-width: 22rem;
+          height: 15.5rem;
+          left: -10rem;
+          top: -10rem;
+        }
       }
 
       & img[src*="pin"] {
         opacity: 1;
         scale: 1.1;
-        left: 9rem;
-        bottom: 15rem;
+        left: 12rem;
+        bottom: -10rem;
+
+        @media (width < 768px) {
+          left: -3rem;
+          bottom: -1rem;
+        }
+
+        @media (768px <= width <= 1250px) {
+          left: -6rem;
+          bottom: -3rem;
+        }
       }
 
       & img[src*="tematic"] {
         opacity: 1;
         scale: 1.1;
-        right: 10rem;
-        top: -11rem;
         height: 83.9rem;
+        object-fit: contain;
+        right: -2rem;
+        top: -12rem;
+
+        @media (width < 768px) {
+          max-width: 15rem;
+          height: 20rem;
+          right: -8rem;
+          top: 2rem;
+        }
+
+        @media (768px <= width <= 1250px) {
+          max-width: 25.9rem;
+          height: auto;
+          right: -13rem;
+          top: -2rem;
+        }
       }
     }
   }
